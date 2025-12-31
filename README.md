@@ -6,5 +6,6 @@ A system for selling and buying criminal stuff.
 - or
 
 - add this to qb-core/shared/items.lua
-
+```
 ['cash_roll']                        = {['name'] = 'cash_roll',                        ['label'] = 'cashroll',                  ['weight'] = 0,            ['type'] = 'item',         ['image'] = 'cashroll.png',                ['unique'] = false,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'A cashroll of dirty money'},
+```
