@@ -1,7 +1,7 @@
 # CA-BigDavid-V2
 A system for selling and buying criminal stuff.
 
-- To change the name of the Money Roll item, use VS Code, find it, and then replace it with the Money Roll item name on your server.
+- To change the name of the Money Roll item, use VS Code, search for 'cash_roll', replace it with the Money Roll item name on your server and that set.
 
 - or
 
