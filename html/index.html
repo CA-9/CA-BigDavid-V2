@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Big David</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="display: none;"> <!-- Start hidden -->
+    <div class="bg">
+        <!-- Exit Button -->
+        <button id="exitButton" class="exit-button"><i class="fa fa-times"></i></button>
+
+        <div class="bg1">
+            <h1 class="bgt">Big David</h1>
+            <h2 class="bgst">You can buy equipment for criminal missions or thefts in exchange for cash rolls.</h2>
+            <!-- Cash Roll Count -->
+            <div class = "ca-cashroll">
+            <div id="cashRollCount" class="cash-roll-count">
+               Your Cash Rolls: <span id="cashRollAmount">0</span>
+            </div>
+            </div>
+            <form class="search">
+                <div class="search__wrapper">
+                    <input type="text" id="searchInput" placeholder="Search For Equipments" class="search__field">
+                    <div type="submit" class="fa fa-search search__icon"></div>
+                </div>
+            </form>
+        </div>
+        <div class="tabs tabs-topright">
+            <button id="buyTab" class="tab-button active">Buy</button>
+            <button id="sellTab" class="tab-button">Sell</button>
+        </div>
+        <div id="itemsList" class="items-list">
+            <!-- Items = app.js -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
