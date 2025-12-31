@@ -10,5 +10,6 @@ A system for selling and buying criminal stuff.
 ['cash_roll']                        = {['name'] = 'cash_roll',                        ['label'] = 'cashroll',                  ['weight'] = 0,            ['type'] = 'item',         ['image'] = 'cashroll.png',                ['unique'] = false,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'A cashroll of dirty money'},
 ```
 
-# Preview
+# Preview:
+
 <img width="1283" height="769" alt="image" src="https://github.com/user-attachments/assets/80e89ef3-b119-420b-ac75-1b38f4f85c58" />
